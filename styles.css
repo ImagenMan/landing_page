@@ -1,0 +1,85 @@
+*, html {
+    box-sizing: border-box;
+    margin: none;
+    padding: none;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --dark-grey: #1f2937;
+}
+body {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    
+}
+
+/* HEADER SECTION */
+header {
+    padding: 1em 8em 0 8em;
+    display: flex;
+    align-self: center;
+    width: 85%;
+    background-color: var(--dark-grey);
+
+}
+.logo {
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 800;
+    font-size: 1.8rem;
+    width: 200px;
+    
+    
+}
+.h-link {
+    color: red;
+    width: 20%;   
+}
+.link-group {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+/* HERO SECTION */
+section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    height: 800px;
+    align-self: center;
+    width: 85%;
+    background-color: var(--dark-grey);
+    flex: 1;
+}
+.hero-left {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    
+
+
+}
+
+
+h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    flex: .7;
+    padding-left: 120px;
+     
+}
+p {
+  
+}
+img {
+    background-color: grey;
+align-self: center;
+    width: 650px;
+    height: 200px;
+    /* padding-right: 180px; */
+    
+  
+}
