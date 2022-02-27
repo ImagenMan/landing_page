@@ -21,7 +21,7 @@ header {
     padding: 1em 8em 0 8em;
     display: flex;
     align-self: center;
-    width: 85%;
+    width: 90%;
     background-color: var(--dark-grey);
 
 }
@@ -31,12 +31,12 @@ header {
     font-weight: 800;
     font-size: 1.8rem;
     width: 200px;
-    
-    
+       
 }
 .h-link {
-    color: red;
-    width: 20%;   
+    color: #ffffff;
+    width: 20%; 
+    text-decoration: none;  
 }
 .link-group {
     display: flex;
@@ -44,42 +44,111 @@ header {
     flex: 1;
 }
 /* HERO SECTION */
-section {
+.hero {
     display: flex;
     justify-content: space-around;
-    padding-top: 100px;
-    height: 800px;
-    align-self: center;
-    width: 85%;
-    background-color: var(--dark-grey);
-    flex: 1;
-}
-.hero-left {
-    display: flex;
     align-items: center;
+    padding-top: 10px;
+    padding: 0 10% 0 10%;
     height: 500px;
+    align-self: center;
+    width: 90%;
+    background-color: var(--dark-grey);
     
-
-
 }
-
+.hero-left h1 {
+    font-size: 3em;
+    width: 500px;
+}
 
 h1 {
-    color: #fff;
-    font-size: 3.5rem;
-    flex: .7;
-    padding-left: 120px;
-     
+    color: #ffffff;   
+    flex: .5;
 }
-p {
-  
+
+.hero-paragraph {
+    max-width: 500px;
+    font-size: 1.3rem;
+    color: #d8d6d6;
 }
-img {
+.hero-btn {
+
+    width: 150px;
+    height: 50px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 15px;
+}
+
+.img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 250px;
     background-color: grey;
-align-self: center;
-    width: 650px;
-    height: 200px;
-    /* padding-right: 180px; */
+    color: white;
+    align-self: center;
+}
+/* SECTIONS */
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 10px;
+    padding: 0 10% 0 10%;
+    height: 500px;
+    width: 90%;
+    background-color: white;
+}
+.sec2-header {
+    align-self: center;
+    color: var(--dark-grey);
+    font-size: 2.2rem;
+    letter-spacing: -.1rem;
+   
+
+}
+
+.sec2-container{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    width: 85%;
+   
+   
     
-  
+    
+   
+    
+
+}
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: solid 0.3em;
+    border-color: red;
+    border-radius: 15px;
+}
+.box p {
+    color: red;
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-top: 10px;
+    padding: 0 10% 0 10%;
+    height: 500px;
+    width: 90%;
+    background-color: #e5e7eb;
 }
