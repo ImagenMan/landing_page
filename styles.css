@@ -6,6 +6,7 @@
 }
 :root {
     --dark-grey: #1f2937;
+    --btn: #3882f6;
 }
 body {
     background-color: #222222;
@@ -35,8 +36,9 @@ header {
 }
 .h-link {
     color: #ffffff;
-    width: 20%; 
+    width: 17%; 
     text-decoration: none;  
+    font-size: 1.2rem;
 }
 .link-group {
     display: flex;
@@ -69,13 +71,13 @@ h1 {
 .hero-paragraph {
     max-width: 500px;
     font-size: 1.3rem;
-    color: #d8d6d6;
+    color: #e5e7eb;
 }
 .hero-btn {
 
     width: 150px;
     height: 50px;
-    background-color: #3b82f6;
+    background-color: var(--btn);
     color: white;
     font-size: 1.2rem;
     border-radius: 15px;
@@ -117,13 +119,6 @@ h1 {
     justify-content: space-between;
     align-self: center;
     width: 85%;
-   
-   
-    
-    
-   
-    
-
 }
 
 .box {
@@ -147,8 +142,90 @@ h1 {
     flex-direction: column;
     align-self: center;
     padding-top: 10px;
-    padding: 0 10% 0 10%;
-    height: 500px;
+    padding: 2% 10% 0 10%;
+    height: 380px;
     width: 90%;
     background-color: #e5e7eb;
+}
+
+
+.section-3 p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #1f2937;
+    align-self: center;
+    width: 60%;
+    font-size: 36px;
+}
+
+.byline {
+    margin-top: -10px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding: 0 10% 0 10%;
+    height: 380px;
+    width: 90%;
+    background-color: white;
+}
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 150px;
+    padding: 0 100px 0 100px;
+    background-color: var(--btn);
+    color: white;
+    border-radius: 10px;
+    
+}
+.btn-footer {
+    width: 150px;
+    height: 50px;
+    background-color: var(--btn);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 15px;
+    border-width: 3px;
+}
+
+.cta-container {
+   position: relative;
+   width: 60%;
+}
+h5 { 
+    margin-top: 0px;
+    font-size: 1.45rem;
+    font-weight: 700;
+}
+.sign {
+    position: absolute;
+    top: 20px;
+    font-size: 1.1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding: 0 10% 0 10%;
+    height: 80px;
+    width: 90%;
+    background-color: var(--dark-grey);  
+    color: white;
 }
